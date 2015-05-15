@@ -31,16 +31,18 @@ http://www7.ncdc.noaa.gov/CDO/dataproduct  -- select "Surface Data, Hourly Globa
 <img src="./snapshots/2.png" width="700px" height="500px" /><br> <br>
 
 
-<img src="./snapshots/3.png" width="400px" height="300px" /> <img src="./snapshots/4.png" width="400px" height="300px" /><br> <br>
+<img src="./snapshots/3.png" width="700px" height="500px" /> 
+<img src="./snapshots/4.png" width="700px" height="500px" /><br> <br>
 
 
-<img src="./snapshots/5.png" width="400px" height="300px" /> <img src="./snapshots/6.png" width="400px" height="300px" /><br> <br>
+<img src="./snapshots/5.png" width="700px" height="500px" /> 
+<img src="./snapshots/6.png" width="700px" height="500px" /><br> <br>
 
 
-<img src="./snapshots/7.png" width="400px" height="300px" /> <img src="./snapshots/8.png" width="400px" height="300px" /><br> <br>
+<img src="./snapshots/7.png" width="700px" height="500px" /> 
+<img src="./snapshots/8.png" width="700px" height="500px" /><br> <br>
 
-
-
+<img src="./snapshots/9.png" width="700px" height="500px" /> 
 
 
 

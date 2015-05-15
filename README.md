@@ -11,8 +11,9 @@ Census data
 Demographics: http://www.nyc.gov/html/dcp/html/census/demo_tables_2010.shtml<br>
 Income information: http://www.nyc.gov/html/dcp/html/census/socio_tables.shtml<br>
 Shape files for census tracts: http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml (search for "tract")<br>
-Weather data
+
+Weather data<br>
 http://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets<br>
-http://www7.ncdc.noaa.gov/CDO/dataproduct -- select "Surface Data, Hourly Global", and then when it comes to select the region, choose NY and the three main stations (Central Park, JFK and LaGuardia).
+http://www7.ncdc.noaa.gov/CDO/dataproduct  -- select "Surface Data, Hourly Global", and then when it comes to select the region, choose NY and the three main stations (Central Park, JFK and LaGuardia).
 
 

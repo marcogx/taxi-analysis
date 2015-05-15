@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+    ['Lines changed', 'TTL', 'Tooltip'],
+    [26648.000000, 101040.36, 'Borough Park'],
+    [49976.000000, 71443, 'Upper East Side'],
+    [45650.000000, 72885.01, 'Southeast Bronx'],
+    [60891.000000, 57761.12, 'Lower East Side'],
+    [78066.000000, 66866.31, 'Upper West Side'],
+    [55869.000000, 66318, 'Chelsea and Clinton'],
+    [38304, 59993, 'Greenwich Village and Soho'],
+    [22305.000000, 86978, 'Bushwick and Williamsburg'],
+    [69273, 69125, 'Gramercy Park and Murray Hill'],
+    [54910, 10497, 'North Queens'],
+    [49083, 55082, 'West Central Queens'],
+    [53313, 72831, 'Northwest Brooklyn'],
+    [17970, 52963, 'Central Harlem'],
+    [19233, 60259, 'Central Bronx'],
+    [17498, 15337, 'Hunts Point and Mott Haven'],
+    [112947, 69066, 'Financial District'],
+    
+]);
+
+        var options = {
+          title: 'Household Income VS. Taxi Driver Revenue',
+          hAxis: {title: 'Household Income', minValue: 10000, maxValue: 120000},
+          vAxis: {title: 'Taxi Driver Revenue', minValue: 10000, maxValue: 110000},
+          legend: 'none'
+         
+        };
+
+data.setColumnProperty(2, 'role', 'tooltip');
+
+
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 900px;"></div>
+  </body>
+</html>

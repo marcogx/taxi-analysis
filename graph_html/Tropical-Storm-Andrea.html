@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+google.setOnLoadCallback(drawChart);
+function drawChart() {
+
+  var data = google.visualization.arrayToDataTable([
+    ['Year', 'Revenue'],
+    ['01',  7481803.27],
+    ['02',  6883789.75],
+    ['03',  6793589.04],
+    ['04',  7237697.45],
+    ['05',  7649636.1],
+    ['06',  7990652.72],
+    ['07',  8028643.02],
+    ['08',  6933761.41],
+    ['09',  6888553.51],
+    ['10',  7023471.38],
+    ['11',  7115482.59],
+    ['12',  7494382.58],
+    ['13',  7822149.28],
+  ]);
+
+  var options = {
+    title: 'Tropical-Storm-Andrea',
+    hAxis: {title: '2013-06', titleTextStyle: {color: 'red'}}
+  };
+
+  var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+
+  chart.draw(data, options);
+
+}
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
+

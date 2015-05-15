@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+        google.setOnLoadCallback(drawVisualization);
+
+function drawVisualization() {
+  // Some raw data (not necessarily accurate)
+        var data = google.visualization.arrayToDataTable([
+        ['Neighbor','TaxiIncome'],
+        ['Battery Park', 67213.11],
+        ['Boerum Hill', 72831.09],
+        ['Borough Park', 101040.36],
+        ['Carroll Gardens', 8273.09],
+        ['Central Park', 8955.09],
+        ['Chelsea', 68034.04],
+        ['Clinton', 57466.61],
+        ['Downtown', 86109.51],
+        ['East Village', 63816.13],
+        ['Financial District', 70919.94],
+        ['Forest Hills', 55082.11],
+        ['Garment District', 52147.63],
+        ['Gramercy', 71145.36],
+        ['Greenwich Village', 59753.93],
+        ['Lower East Side', 57761.12],
+        ['Midtown', 73456.18],
+        ['Morningside Heights', 52963.65],
+        ['Morris Heights', 60259.78],
+        ['Mott Haven', 15337.64],
+        ['Murray Hill', 68672.47],
+        ['North Sutton Area', 80206.54],
+        ['Parkchester', 72885.01],
+        ['Soho', 55189.04],
+        ['Sunny Side', 10497.47],
+        ['Tribeca', 68380.53],
+        ['UNKNOWN', 67205.83],
+        ['Upper East Side', 69382.8],
+        ['Upper West Side', 66866.31],
+        ['West Village', 56653.59],
+        ['Williamsburg', 86978.18],
+        ['Yorkville', 73505.09]
+        ]);
+
+  var options = {
+    title : 'Taxi Income Median By Neighborhood',
+    vAxis: {title: "TaxiIncome"},
+    hAxis: {title: "Neighbor"},
+    seriesType: "bars",
+    series: {5: {type: "line"}}
+  };
+
+  var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+}
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
+

@@ -1,0 +1,42 @@
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(drawVisualization);
+
+    function drawVisualization() {
+        // Some raw data (not necessarily accurate)
+        var data = google.visualization.arrayToDataTable([
+          ['Month', 'Total Income'],
+          [01, 206177887.411],
+          [02, 196346621.371],
+          [03, 226717648.602],
+          [04, 221818042.802],
+          [05, 230038214.932],
+          [06, 216650954.302],
+          [07, 204031309.181],
+          [08, 190610276.901],
+          [09, 214990401.581],
+          [10, 227890393.162],
+          [11, 214744950.821],
+          [12, 211328661.331],
+          ]);
+
+
+        var options = {
+          title : 'Income Distributes by Month',
+          vAxis: {title: "Total Income"},
+          hAxis: {title: "Month"},
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+
+      </script>
+    </head>
+    <body>
+      <div id="chart_div" style="width: 900px; height: 500px;"></div>
+    </body>
+    </html>
+    
+    

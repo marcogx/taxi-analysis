@@ -1,0 +1,38 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+  google.load("visualization", "1", {packages:["corechart"]});
+  google.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Month', 'Avg'],
+      ['01', 255.037032],
+      ['02', 242.305919],
+      ['03', 242.438148],
+      ['04', 237.836183],
+      ['05', 230.880876],
+      ['06', 235.401827],
+      ['07', 246.660471],
+      ['08', 247.994406],
+      ['09', 236.722917],
+      ['10', 232.693536],
+      ['11', 235.757797],
+      ['12', 237.441446],
+      ]);
+
+    var options = {
+      title: 'Drive without passenger by month',
+      hAxis: {title: 'Month',  titleTextStyle: {color: '#333'}},
+      vAxis: {minValue: 220}
+    };
+
+    var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+  }
+  </script>
+</head>
+<body>
+  <div id="chart_div" style="width: 900px; height: 500px;"></div>
+</body>
+</html>

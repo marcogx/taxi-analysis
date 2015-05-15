@@ -1,0 +1,42 @@
+Borough Park	26648.000000
+Bronx Park and Fordham	29044.000000
+Bushwick and Williamsburg	22305.000000
+Canarsie and Flatlands	42370.000000
+Central Bronx	19233.000000
+Central Brooklyn	25135.000000
+Central Harlem	17970.000000
+Central Queens	62325.000000
+Chelsea and Clinton	55869.000000
+East Harlem	14896.000000
+East New York and New Lots	27078.000000
+Flatbush	30192.000000
+Gramercy Park and Murray Hill	69273.000000
+Greenpoint	33578.000000
+Greenwich Village and Soho	38304.000000
+High Bridge and Morrisania	20606.000000
+Hunts Point and Mott Haven	17498.000000
+Inwood and Washington Heights	31348.000000
+Jamaica	31869.000000
+Kingsbridge and Riverdale	41800.000000
+Lower East Side	60891.000000
+Lower Manhattan	112947.000000
+Mid-Island	59560.000000
+North Queens	54910.000000
+Northeast Bronx	38464.000000
+Northeast Queens	67550.000000
+Northwest Brooklyn	53313.000000
+Northwest Queens	37962.000000
+Port Richmond	42463.000000
+Rockaways	37248.000000
+South Shore	61868.000000
+Southeast Bronx	45650.000000
+Southeast Queens	58396.000000
+Southern Brooklyn	37812.000000
+Southwest Brooklyn	33765.000000
+Southwest Queens	40924.000000
+Stapleton and St. George	41041.000000
+Sunset Park	28395.000000
+Upper East Side	49976.000000
+Upper West Side	78066.000000
+West Central Queens	49083.000000
+West Queens	39084.000000

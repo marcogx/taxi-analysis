@@ -2,7 +2,7 @@
 
 In this final group project we analyze NYC taxi data on topic of "Understanding Taxi Economics", it is implemented in Map-Reduce Algorithm with Hadoop Streamming API and Python.
 
-# Problem Investiaged 
+# Question Investigated 
 1. How does revenue vary across neighborhoods and how does it correlate with the median household income in the neighborhood?
 2. How does revenue vary over time? Are the months or seasons when taxi companies make more (or less) money?
 3. How long do cab drives ride without passengers? How does this vary over time?
@@ -21,6 +21,11 @@ Shape files for census tracts: http://www.nyc.gov/html/dcp/html/bytes/districts_
 Weather data<br>
 http://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets<br>
 http://www7.ncdc.noaa.gov/CDO/dataproduct  -- select "Surface Data, Hourly Global", and then when it comes to select the region, choose NY and the three main stations (Central Park, JFK and LaGuardia).
+
+# Result Snapshot
+
+<img src="./snapshots/0.jpg" width="600px" height="600px" /> 
+<img src="./snapshots/1.jpg" width="600px" height="600px" /> 
 
 # Author
 Shaopeng Zhang<br>

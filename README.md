@@ -27,7 +27,21 @@ http://www7.ncdc.noaa.gov/CDO/dataproduct  -- select "Surface Data, Hourly Globa
 <img src="./snapshots/0.png" width="1000px" height="600px" /> <br> <br>
 
 
-<img src="./snapshots/1.png" width="400px" height="300px" /> <img src="./snapshots/2.png" width="400px" height="300px" />
+<img src="./snapshots/1.png" width="400px" height="300px" /> <img src="./snapshots/2.png" width="400px" height="300px" /><br> <br>
+
+
+<img src="./snapshots/3.png" width="400px" height="300px" /> <img src="./snapshots/4.png" width="400px" height="300px" /><br> <br>
+
+
+<img src="./snapshots/5.png" width="400px" height="300px" /> <img src="./snapshots/6.png" width="400px" height="300px" /><br> <br>
+
+
+<img src="./snapshots/7.png" width="400px" height="300px" /> <img src="./snapshots/8.png" width="400px" height="300px" /><br> <br>
+
+
+
+
+
 
 # Author
 Shaopeng Zhang<br>
